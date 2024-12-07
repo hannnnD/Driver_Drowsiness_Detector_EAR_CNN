@@ -2,7 +2,7 @@ import numpy as np
 from tensorflow.keras.models import load_model
 import os
 
-model_path = os.path.join(os.path.dirname(__file__), 'drowsiness_detection_model.h5')
+model_path = os.path.join(os.path.dirname(__file__), 'drowsiness_detection_cnn_model_v2.h5')
 
 # Tải mô hình
 model = load_model(model_path)
