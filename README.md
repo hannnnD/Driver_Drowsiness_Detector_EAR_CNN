@@ -1,7 +1,9 @@
 Tổng quan các file trong dự án
 
 
+
 File chính chạy chương trình
+
 **_ear_model.py_**
 Chức năng: Xây dựng và huấn luyện mô hình EAR (Eye Aspect Ratio) để phát hiện trạng thái buồn ngủ của người lái xe.
 Chi tiết: Kết hợp dữ liệu EAR với các tham số đầu vào để xác định tình trạng buồn ngủ.
@@ -16,6 +18,7 @@ Chi tiết: Tổng hợp thông tin từ cả hai mô hình để đưa ra kết
 
 
 File phụ để đo đạc và hiệu chỉnh tham số
+
 **ear_find_best_threshold.py**
 Chức năng: Tìm giá trị ngưỡng tối ưu cho EAR để phát hiện trạng thái buồn ngủ.
 
@@ -33,6 +36,7 @@ Chức năng: Kiểm tra cấu trúc mô hình CNN để đảm bảo đúng đ�
 
 
 File mô hình đã huấn luyện
+
 **drowsiness_detection_cnn_model_v1.h5**
 Phiên bản 1 của mô hình CNN phát hiện buồn ngủ. Với Epoch = 10, Batch = 32, Tiền xử lý ảnh RGB để train
 
@@ -47,6 +51,7 @@ Phiên bản mới nhất với tối ưu hóa kiến trúc và dữ liệu hu�
 
 
 Dữ liệu và tệp hỗ trợ
+
 **ear_data_images.csv**
 Dữ liệu EAR được tổng hợp từ ảnh.
 
